@@ -1,0 +1,254 @@
+.running-line {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #7BADE8;
+    color: #ffffff;
+    line-height: 56px;
+    height: 56px;
+    width: 100%;
+  }
+
+  .scrolling {
+    will-change: transform;
+    font-size: 32px;
+    animation: marquee 15s linear infinite;
+    display: inline-block;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+ h1, h3 {
+    text-align: center;
+    color: #4780C4;
+    }
+
+h5 {
+      color: #4780C4;
+}
+
+.rectangle-1 {
+    width: 379px;
+    height: 1px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.rectangle-2 {
+    width: 379px;
+    height: 1px;
+    background-color: #4780C4;
+       margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #4780C4;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container1 {
+    text-align: justify;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.footer {
+padding: 1rem;
+text-align: center;
+background-color: #4780C4;
+height: 132px;
+width: 100%;
+margin-top: 15vh;
+}
+
+  .icons-three {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+  }
+
+  .social-icons:not(:last-of-type) {
+    margin-right: 42.1px;
+  }
+
+  .icons-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .icons-two .telegram-icon:not(:last-of-type) {
+    margin-right: 22px;
+  }
+
+  .telegram-icon {
+    align-self: stretch;
+  }
+  .telegram-icon:not(:last-of-type) {
+    margin-right: 22px;
+  }
+
+  .rectangle-14 {
+    width: 521px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 10px auto;
+  }
+
+  .num-2024-cat-rivaille {
+    height: 18.09%;
+    color: #ffffff;
+    font-family: var(--source-sans-3-14-regular-family);
+    font-size: var(--source-sans-3-14-regular-size);
+    font-weight: var(--source-sans-3-14-regular-weight);
+    line-height: var(--source-sans-3-14-regular-line-height);
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .list-unstyled {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .list-unstyled li {
+    margin-right: 10px;
+  }
+
+  .contacts {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header {
+    width: 100%;
+    height: 515px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #4780C4;
+  }
+  .main-image {
+    width: 535px;
+    height: 69.68%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+  .cat-rivaille {
+    height: 10%;
+    font-size: 64px;
+    color: #4780C4;
+    margin-bottom: 5px;
+  }
+  .links {
+    display: flex;
+    align-items: flex-start;
+  }
+  .tovary {
+    width: 29.39%;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: #4780C4;
+    align-self: stretch;
+    text-align: center;
+    margin-right: 25.57px;
+  }
+  .faq {
+    width: 13.39%;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: #4780C4;
+    align-self: stretch;
+    text-align: center;
+    margin-right: 24.22px;
+  }
+  .kontakty {
+    width: 38.69%;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: #4780C4;
+    align-self: stretch;
+    text-align: center;
+  }
+  .icons {
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: 117.19px;
+    bottom: 38px;
+  }
+
+  .favourite {
+    width: 200%;
+    height: 200%;
+  }
+
+  .user {
+    width: 200%; /* Changed to auto */
+    height: 200%; /* Changed to auto */
+
+  }
+
+  .shopping-bag {
+    width: 200%; /* Changed to auto */
+    height: 200%; /* Changed to auto */
+     /* Adjusted margin to provide space between icons */
+  }
+
+  .flex-wrapper-one {
+    position: relative;
+  }
+
+
+
+
+
